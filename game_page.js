@@ -41,6 +41,8 @@ function check() {
             player2_score = player2_score + 1;
             document.getElementById("player2_score").innerHTML = player2_score;
         }
+        document.getElementById("output").innerHTML = "";
+
     }
     if (question_turn == "player_1") {
         question_turn = "player_2";
